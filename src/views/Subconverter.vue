@@ -352,12 +352,20 @@ export default {
           "CM提供-应急备用后端": "https://subapi.fxxk.dedyn.io",
           "肥羊提供-增强型后端": "https://url.v1.mk",
           "肥羊提供-备用后端": "https://api.v1.mk",
+          "CM提供-负载均衡后端(cf)": "https://psub.xinming.cc.cd/sub?",
+          "CM提供-应急备用后端(cf)": "https://psub.xinming.cc.cd/sub?bd=https://subapi.fxxk.dedyn.io",
+          "肥羊提供-增强型后端(cf)": "https://psub.xinming.cc.cd/sub?bd=https://url.v1.mk",
+          "肥羊提供-备用后端(cf)": "https://psub.xinming.cc.cd/sub?bd=https://api.v1.mk",
         },
         backendOptions: [
           { value: "https://subapi.cmliussss.net" },
           { value: "https://subapi.fxxk.dedyn.io" },
           { value: "https://url.v1.mk" },
           { value: "https://api.v1.mk" },
+          { value: "https://psub.xinming.cc.cd/sub?" },
+          { value: "https://psub.xinming.cc.cd/sub?bd=https://subapi.fxxk.dedyn.io" },
+          { value: "https://psub.xinming.cc.cd/sub?bd=https://url.v1.mk" },
+          { value: "hhttps://psub.xinming.cc.cd/sub?bd=https://api.v1.mk" }
         ],
         remoteConfig: [
           {
